@@ -18,7 +18,6 @@ if($_POST){
     print_r($usuario_data);
 
     if($usuario_data){
-      print_r ("fgeyivhcv yis");
       $_SESSION['usuario_foca']  =$usuario_data['id_usuario'];
       header("location:admin.php");
     }else {
