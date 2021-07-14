@@ -8,3 +8,4 @@ if(!isset($_SESSION['usuario_foca'])){
 
 
 PAGINA ACCEDIDA
+<a href="logout.php">Cerrar Sesión</a>

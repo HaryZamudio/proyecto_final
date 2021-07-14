@@ -1,7 +1,7 @@
 <?php
 if($_POST){
     session_start();
-    require_once "includes/class_conexion.php";
+    require_once "proyectogrupal/includes/class_conexion.php";
     $conex=new Conexion();
     $conex_login =$conex->conexion_bd_bictia();
     $conex_login->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
